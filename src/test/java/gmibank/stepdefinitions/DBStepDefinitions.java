@@ -8,6 +8,7 @@ import java.util.List;
 
 public class DBStepDefinitions {
 
+
     @Given("kullanici veritabanina baglanir")
     public void kullanici_veritabanina_baglanir() {
         DatabaseUtility.createConnection();
