@@ -3,7 +3,7 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2021-01-26T05:44:08.467Z",
+        "start_timestamp": "2021-01-26T17:48:57.533Z",
         "line": 15,
         "name": "User cannot login with invalid username validating the error message",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 16717853600,
+              "duration": 17080883000,
               "status": "passed"
             },
             "line": 5,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 128516600,
+              "duration": 123568500,
               "status": "passed"
             },
             "line": 6,
@@ -37,7 +37,7 @@
           },
           {
             "result": {
-              "duration": 175380500,
+              "duration": 169385000,
               "status": "passed"
             },
             "line": 7,
@@ -49,7 +49,7 @@
           },
           {
             "result": {
-              "duration": 135971500,
+              "duration": 135170900,
               "status": "passed"
             },
             "line": 8,
@@ -67,7 +67,7 @@
           },
           {
             "result": {
-              "duration": 191436300,
+              "duration": 202839800,
               "status": "passed"
             },
             "line": 9,
@@ -85,7 +85,7 @@
           },
           {
             "result": {
-              "duration": 407081300,
+              "duration": 1257400100,
               "status": "passed"
             },
             "line": 10,
@@ -106,7 +106,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-26T05:44:26.370Z",
+        "start_timestamp": "2021-01-26T17:49:16.662Z",
         "line": 16,
         "name": "User cannot login with invalid username validating the error message",
         "description": "",
@@ -116,7 +116,7 @@
         "steps": [
           {
             "result": {
-              "duration": 605744600,
+              "duration": 644903200,
               "status": "passed"
             },
             "line": 5,
@@ -128,7 +128,7 @@
           },
           {
             "result": {
-              "duration": 164199100,
+              "duration": 188470600,
               "status": "passed"
             },
             "line": 6,
@@ -140,7 +140,7 @@
           },
           {
             "result": {
-              "duration": 159848700,
+              "duration": 157929100,
               "status": "passed"
             },
             "line": 7,
@@ -152,7 +152,7 @@
           },
           {
             "result": {
-              "duration": 119540300,
+              "duration": 119301500,
               "status": "passed"
             },
             "line": 8,
@@ -170,7 +170,7 @@
           },
           {
             "result": {
-              "duration": 135152300,
+              "duration": 148224900,
               "status": "passed"
             },
             "line": 9,
@@ -188,7 +188,7 @@
           },
           {
             "result": {
-              "duration": 380847700,
+              "duration": 1212925300,
               "status": "passed"
             },
             "line": 10,
@@ -209,7 +209,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-26T05:44:27.942Z",
+        "start_timestamp": "2021-01-26T17:49:19.150Z",
         "line": 17,
         "name": "User cannot login with invalid username validating the error message",
         "description": "",
@@ -219,7 +219,7 @@
         "steps": [
           {
             "result": {
-              "duration": 493563600,
+              "duration": 508666100,
               "status": "passed"
             },
             "line": 5,
@@ -231,7 +231,7 @@
           },
           {
             "result": {
-              "duration": 150094100,
+              "duration": 142545000,
               "status": "passed"
             },
             "line": 6,
@@ -243,7 +243,7 @@
           },
           {
             "result": {
-              "duration": 137266900,
+              "duration": 148851500,
               "status": "passed"
             },
             "line": 7,
@@ -255,7 +255,7 @@
           },
           {
             "result": {
-              "duration": 108948600,
+              "duration": 103603900,
               "status": "passed"
             },
             "line": 8,
@@ -273,7 +273,7 @@
           },
           {
             "result": {
-              "duration": 140822600,
+              "duration": 164418800,
               "status": "passed"
             },
             "line": 9,
@@ -291,7 +291,7 @@
           },
           {
             "result": {
-              "duration": 372300900,
+              "duration": 1217357000,
               "status": "passed"
             },
             "line": 10,
@@ -312,7 +312,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-26T05:44:29.355Z",
+        "start_timestamp": "2021-01-26T17:49:21.444Z",
         "line": 18,
         "name": "User cannot login with invalid username validating the error message",
         "description": "",
@@ -322,7 +322,7 @@
         "steps": [
           {
             "result": {
-              "duration": 499130800,
+              "duration": 494009200,
               "status": "passed"
             },
             "line": 5,
@@ -334,7 +334,7 @@
           },
           {
             "result": {
-              "duration": 147211500,
+              "duration": 149328700,
               "status": "passed"
             },
             "line": 6,
@@ -346,7 +346,7 @@
           },
           {
             "result": {
-              "duration": 142563600,
+              "duration": 151536600,
               "status": "passed"
             },
             "line": 7,
@@ -358,7 +358,7 @@
           },
           {
             "result": {
-              "duration": 99906100,
+              "duration": 102452500,
               "status": "passed"
             },
             "line": 8,
@@ -376,7 +376,7 @@
           },
           {
             "result": {
-              "duration": 136019000,
+              "duration": 152441900,
               "status": "passed"
             },
             "line": 9,
@@ -394,7 +394,7 @@
           },
           {
             "result": {
-              "duration": 404245500,
+              "duration": 1192921100,
               "status": "passed"
             },
             "line": 10,
@@ -415,8 +415,8 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-26T05:44:30.794Z",
-        "line": 32,
+        "start_timestamp": "2021-01-26T17:49:23.692Z",
+        "line": 31,
         "name": "User cannot login with invalid password validating the error message",
         "description": "",
         "id": "tc01-login-page-should-not-be-accessible-with-invalid-credentials;user-cannot-login-with-invalid-password-validating-the-error-message;;2",
@@ -425,10 +425,46 @@
         "steps": [
           {
             "result": {
-              "duration": 153381500,
+              "duration": 494749000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User on landing page",
+            "match": {
+              "location": "gmibank.stepdefinitions.StepDef05.user_on_landing_page_https_gmibank_com()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 135029100,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Click the person icon on top of right corner",
+            "match": {
+              "location": "gmibank.stepdefinitions.StepDef05.click_the_person_icon_on_top_of_right_corner()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 161414300,
               "status": "passed"
             },
             "line": 23,
+            "name": "Click on the sign in button",
+            "match": {
+              "location": "gmibank.stepdefinitions.StepDef05.click_on_the_sign_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 98571000,
+              "status": "passed"
+            },
+            "line": 24,
             "name": "Typed the valid username \"SKaya\" into the first box",
             "match": {
               "arguments": [
@@ -443,10 +479,10 @@
           },
           {
             "result": {
-              "duration": 129571400,
+              "duration": 1179179100,
               "status": "passed"
             },
-            "line": 24,
+            "line": 25,
             "name": "Typed the invalid password \"Skaya192837*@\" into the second box",
             "match": {
               "arguments": [
@@ -461,10 +497,10 @@
           },
           {
             "result": {
-              "duration": 137781400,
+              "duration": 1197295900,
               "status": "passed"
             },
-            "line": 25,
+            "line": 26,
             "name": "Click the sign in button",
             "match": {
               "location": "gmibank.stepdefinitions.StepDef05.click_the_sign_in_button()"
@@ -482,8 +518,8 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-26T05:44:31.228Z",
-        "line": 33,
+        "start_timestamp": "2021-01-26T17:49:26.975Z",
+        "line": 32,
         "name": "User cannot login with invalid password validating the error message",
         "description": "",
         "id": "tc01-login-page-should-not-be-accessible-with-invalid-credentials;user-cannot-login-with-invalid-password-validating-the-error-message;;3",
@@ -492,10 +528,46 @@
         "steps": [
           {
             "result": {
-              "duration": 127439600,
+              "duration": 519586900,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User on landing page",
+            "match": {
+              "location": "gmibank.stepdefinitions.StepDef05.user_on_landing_page_https_gmibank_com()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 152384400,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Click the person icon on top of right corner",
+            "match": {
+              "location": "gmibank.stepdefinitions.StepDef05.click_the_person_icon_on_top_of_right_corner()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 145195900,
               "status": "passed"
             },
             "line": 23,
+            "name": "Click on the sign in button",
+            "match": {
+              "location": "gmibank.stepdefinitions.StepDef05.click_on_the_sign_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 106671400,
+              "status": "passed"
+            },
+            "line": 24,
             "name": "Typed the valid username \"cus102\" into the first box",
             "match": {
               "arguments": [
@@ -510,10 +582,10 @@
           },
           {
             "result": {
-              "duration": 141115400,
+              "duration": 1161757200,
               "status": "passed"
             },
-            "line": 24,
+            "line": 25,
             "name": "Typed the invalid password \"Cus102@@\" into the second box",
             "match": {
               "arguments": [
@@ -528,10 +600,10 @@
           },
           {
             "result": {
-              "duration": 160672700,
+              "duration": 1151503800,
               "status": "passed"
             },
-            "line": 25,
+            "line": 26,
             "name": "Click the sign in button",
             "match": {
               "location": "gmibank.stepdefinitions.StepDef05.click_the_sign_in_button()"
@@ -549,8 +621,8 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-26T05:44:31.665Z",
-        "line": 34,
+        "start_timestamp": "2021-01-26T17:49:30.223Z",
+        "line": 33,
         "name": "User cannot login with invalid password validating the error message",
         "description": "",
         "id": "tc01-login-page-should-not-be-accessible-with-invalid-credentials;user-cannot-login-with-invalid-password-validating-the-error-message;;4",
@@ -559,10 +631,46 @@
         "steps": [
           {
             "result": {
-              "duration": 161369600,
+              "duration": 462673600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User on landing page",
+            "match": {
+              "location": "gmibank.stepdefinitions.StepDef05.user_on_landing_page_https_gmibank_com()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 181837900,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Click the person icon on top of right corner",
+            "match": {
+              "location": "gmibank.stepdefinitions.StepDef05.click_the_person_icon_on_top_of_right_corner()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 145902200,
               "status": "passed"
             },
             "line": 23,
+            "name": "Click on the sign in button",
+            "match": {
+              "location": "gmibank.stepdefinitions.StepDef05.click_on_the_sign_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 114496900,
+              "status": "passed"
+            },
+            "line": 24,
             "name": "Typed the valid username \"empl101\" into the first box",
             "match": {
               "arguments": [
@@ -577,10 +685,10 @@
           },
           {
             "result": {
-              "duration": 122482900,
+              "duration": 1176104900,
               "status": "passed"
             },
-            "line": 24,
+            "line": 25,
             "name": "Typed the invalid password \"Empl101@@\" into the second box",
             "match": {
               "arguments": [
@@ -595,10 +703,10 @@
           },
           {
             "result": {
-              "duration": 135759000,
+              "duration": 1191649300,
               "status": "passed"
             },
-            "line": 25,
+            "line": 26,
             "name": "Click the sign in button",
             "match": {
               "location": "gmibank.stepdefinitions.StepDef05.click_the_sign_in_button()"
@@ -616,8 +724,8 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-26T05:44:32.094Z",
-        "line": 35,
+        "start_timestamp": "2021-01-26T17:49:33.507Z",
+        "line": 34,
         "name": "User cannot login with invalid password validating the error message",
         "description": "",
         "id": "tc01-login-page-should-not-be-accessible-with-invalid-credentials;user-cannot-login-with-invalid-password-validating-the-error-message;;5",
@@ -626,10 +734,46 @@
         "steps": [
           {
             "result": {
-              "duration": 136655300,
+              "duration": 502389200,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User on landing page",
+            "match": {
+              "location": "gmibank.stepdefinitions.StepDef05.user_on_landing_page_https_gmibank_com()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 163622700,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Click the person icon on top of right corner",
+            "match": {
+              "location": "gmibank.stepdefinitions.StepDef05.click_the_person_icon_on_top_of_right_corner()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 155385100,
               "status": "passed"
             },
             "line": 23,
+            "name": "Click on the sign in button",
+            "match": {
+              "location": "gmibank.stepdefinitions.StepDef05.click_on_the_sign_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 108204400,
+              "status": "passed"
+            },
+            "line": 24,
             "name": "Typed the valid username \"man103\" into the first box",
             "match": {
               "arguments": [
@@ -644,10 +788,10 @@
           },
           {
             "result": {
-              "duration": 128927400,
+              "duration": 1230424000,
               "status": "passed"
             },
-            "line": 24,
+            "line": 25,
             "name": "Typed the invalid password \"Man103@@\" into the second box",
             "match": {
               "arguments": [
@@ -662,10 +806,10 @@
           },
           {
             "result": {
-              "duration": 159034700,
+              "duration": 1197788500,
               "status": "passed"
             },
-            "line": 25,
+            "line": 26,
             "name": "Click the sign in button",
             "match": {
               "location": "gmibank.stepdefinitions.StepDef05.click_the_sign_in_button()"
@@ -683,8 +827,8 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-26T05:44:32.528Z",
-        "line": 49,
+        "start_timestamp": "2021-01-26T17:49:36.870Z",
+        "line": 47,
         "name": "User cannot login with the invalid username and invalid password validating the error message",
         "description": "",
         "id": "tc01-login-page-should-not-be-accessible-with-invalid-credentials;user-cannot-login-with-the-invalid-username-and-invalid-password-validating-the-error-message;;2",
@@ -693,7 +837,43 @@
         "steps": [
           {
             "result": {
-              "duration": 162751100,
+              "duration": 488828300,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "User on landing page",
+            "match": {
+              "location": "gmibank.stepdefinitions.StepDef05.user_on_landing_page_https_gmibank_com()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 134583700,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Click the person icon on top of right corner",
+            "match": {
+              "location": "gmibank.stepdefinitions.StepDef05.click_the_person_icon_on_top_of_right_corner()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 170140900,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Click on the sign in button",
+            "match": {
+              "location": "gmibank.stepdefinitions.StepDef05.click_on_the_sign_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 95694800,
               "status": "passed"
             },
             "line": 40,
@@ -711,7 +891,7 @@
           },
           {
             "result": {
-              "duration": 134330300,
+              "duration": 1171618900,
               "status": "passed"
             },
             "line": 41,
@@ -729,7 +909,7 @@
           },
           {
             "result": {
-              "duration": 163461900,
+              "duration": 1212856200,
               "status": "passed"
             },
             "line": 42,
@@ -750,8 +930,8 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-26T05:44:32.999Z",
-        "line": 50,
+        "start_timestamp": "2021-01-26T17:49:40.170Z",
+        "line": 48,
         "name": "User cannot login with the invalid username and invalid password validating the error message",
         "description": "",
         "id": "tc01-login-page-should-not-be-accessible-with-invalid-credentials;user-cannot-login-with-the-invalid-username-and-invalid-password-validating-the-error-message;;3",
@@ -760,7 +940,43 @@
         "steps": [
           {
             "result": {
-              "duration": 136865200,
+              "duration": 493567600,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "User on landing page",
+            "match": {
+              "location": "gmibank.stepdefinitions.StepDef05.user_on_landing_page_https_gmibank_com()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 171968400,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Click the person icon on top of right corner",
+            "match": {
+              "location": "gmibank.stepdefinitions.StepDef05.click_the_person_icon_on_top_of_right_corner()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 147755900,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Click on the sign in button",
+            "match": {
+              "location": "gmibank.stepdefinitions.StepDef05.click_on_the_sign_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 103674800,
               "status": "passed"
             },
             "line": 40,
@@ -778,7 +994,7 @@
           },
           {
             "result": {
-              "duration": 126476700,
+              "duration": 1174005300,
               "status": "passed"
             },
             "line": 41,
@@ -796,7 +1012,7 @@
           },
           {
             "result": {
-              "duration": 152377000,
+              "duration": 1184937300,
               "status": "passed"
             },
             "line": 42,
@@ -817,8 +1033,8 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-26T05:44:33.420Z",
-        "line": 51,
+        "start_timestamp": "2021-01-26T17:49:43.450Z",
+        "line": 49,
         "name": "User cannot login with the invalid username and invalid password validating the error message",
         "description": "",
         "id": "tc01-login-page-should-not-be-accessible-with-invalid-credentials;user-cannot-login-with-the-invalid-username-and-invalid-password-validating-the-error-message;;4",
@@ -827,7 +1043,43 @@
         "steps": [
           {
             "result": {
-              "duration": 151272400,
+              "duration": 505380600,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "User on landing page",
+            "match": {
+              "location": "gmibank.stepdefinitions.StepDef05.user_on_landing_page_https_gmibank_com()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 152895000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Click the person icon on top of right corner",
+            "match": {
+              "location": "gmibank.stepdefinitions.StepDef05.click_the_person_icon_on_top_of_right_corner()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 147198800,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Click on the sign in button",
+            "match": {
+              "location": "gmibank.stepdefinitions.StepDef05.click_on_the_sign_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 112914400,
               "status": "passed"
             },
             "line": 40,
@@ -845,7 +1097,7 @@
           },
           {
             "result": {
-              "duration": 133731600,
+              "duration": 1165652600,
               "status": "passed"
             },
             "line": 41,
@@ -863,7 +1115,7 @@
           },
           {
             "result": {
-              "duration": 158614400,
+              "duration": 1174795700,
               "status": "passed"
             },
             "line": 42,
@@ -884,8 +1136,8 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-26T05:44:33.867Z",
-        "line": 52,
+        "start_timestamp": "2021-01-26T17:49:46.715Z",
+        "line": 50,
         "name": "User cannot login with the invalid username and invalid password validating the error message",
         "description": "",
         "id": "tc01-login-page-should-not-be-accessible-with-invalid-credentials;user-cannot-login-with-the-invalid-username-and-invalid-password-validating-the-error-message;;5",
@@ -894,7 +1146,43 @@
         "steps": [
           {
             "result": {
-              "duration": 140808600,
+              "duration": 496650300,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "User on landing page",
+            "match": {
+              "location": "gmibank.stepdefinitions.StepDef05.user_on_landing_page_https_gmibank_com()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 147165800,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Click the person icon on top of right corner",
+            "match": {
+              "location": "gmibank.stepdefinitions.StepDef05.click_the_person_icon_on_top_of_right_corner()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 151726500,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Click on the sign in button",
+            "match": {
+              "location": "gmibank.stepdefinitions.StepDef05.click_on_the_sign_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 104147500,
               "status": "passed"
             },
             "line": 40,
@@ -912,7 +1200,7 @@
           },
           {
             "result": {
-              "duration": 109732700,
+              "duration": 1208528200,
               "status": "passed"
             },
             "line": 41,
@@ -930,7 +1218,7 @@
           },
           {
             "result": {
-              "duration": 159611200,
+              "duration": 1198390300,
               "status": "passed"
             },
             "line": 42,
@@ -951,8 +1239,8 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-26T05:44:34.283Z",
-        "line": 55,
+        "start_timestamp": "2021-01-26T17:49:50.026Z",
+        "line": 52,
         "name": "User with invalid credentials should be given an option to reset their password",
         "description": "",
         "id": "tc01-login-page-should-not-be-accessible-with-invalid-credentials;user-with-invalid-credentials-should-be-given-an-option-to-reset-their-password",
@@ -961,7 +1249,43 @@
         "steps": [
           {
             "result": {
-              "duration": 82398600,
+              "duration": 478682600,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "User on landing page",
+            "match": {
+              "location": "gmibank.stepdefinitions.StepDef05.user_on_landing_page_https_gmibank_com()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 143187900,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "Click the person icon on top of right corner",
+            "match": {
+              "location": "gmibank.stepdefinitions.StepDef05.click_the_person_icon_on_top_of_right_corner()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 157422600,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "Click on the sign in button",
+            "match": {
+              "location": "gmibank.stepdefinitions.StepDef05.click_on_the_sign_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1089507900,
               "status": "passed"
             },
             "line": 56,
@@ -982,8 +1306,8 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-26T05:44:34.370Z",
-        "line": 59,
+        "start_timestamp": "2021-01-26T17:49:51.897Z",
+        "line": 58,
         "name": "User should be given the option to navigate to registration page if they did not register yet",
         "description": "",
         "id": "tc01-login-page-should-not-be-accessible-with-invalid-credentials;user-should-be-given-the-option-to-navigate-to-registration-page-if-they-did-not-register-yet",
@@ -992,10 +1316,46 @@
         "steps": [
           {
             "result": {
-              "duration": 818748100,
+              "duration": 488128100,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "User on landing page",
+            "match": {
+              "location": "gmibank.stepdefinitions.StepDef05.user_on_landing_page_https_gmibank_com()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 139616900,
               "status": "passed"
             },
             "line": 60,
+            "name": "Click the person icon on top of right corner",
+            "match": {
+              "location": "gmibank.stepdefinitions.StepDef05.click_the_person_icon_on_top_of_right_corner()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 145461200,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "Click on the sign in button",
+            "match": {
+              "location": "gmibank.stepdefinitions.StepDef05.click_on_the_sign_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1843440600,
+              "status": "passed"
+            },
+            "line": 62,
             "name": "User should be able to see  the option which says You don\u0027t have an account yet? Register a new account",
             "match": {
               "location": "gmibank.stepdefinitions.StepDef05.user_should_be_able_to_see_the_option_which_says_You_don_t_have_an_account_yet_Register_a_new_account()"
@@ -1017,7 +1377,7 @@
     "description": "",
     "id": "tc01-login-page-should-not-be-accessible-with-invalid-credentials",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/us05.feature",
+    "uri": "file:src/test/resources/gmibank/features/us05.feature",
     "tags": [
       {
         "name": "@us05",

@@ -27,7 +27,7 @@ public class Negative_Login_Page {
 
     @FindBy(xpath = "//strong[text()='Failed to sign in!']")
     public WebElement allertMessage;
-
+//
     @FindBy(xpath = "//*[text()='Did you forget your password?']")
     public WebElement forgetPasswordMessage;
     @FindBy(xpath = "//span[text()='Register a new account']")

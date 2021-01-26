@@ -14,6 +14,7 @@ public class StepDef05 {
 
     Negative_Login_Page loginPage = new Negative_Login_Page();
 
+
     @Given("User on landing page")
     public void user_on_landing_page_https_gmibank_com() {
         Driver.getDriver().get(ConfigurationReader.getProperty("gmibank"));
@@ -46,7 +47,10 @@ public class StepDef05 {
     @Then("Click the sign in button")
     public void click_the_sign_in_button() {
         loginPage.submit.click();
+        Driver.wait(1);
+
         boolean allertMessageDisplayed = loginPage.allertMessage.isDisplayed();
+
         System.out.println(allertMessageDisplayed);
 
     }
@@ -59,24 +63,29 @@ public class StepDef05 {
 
     @Given("Typed the invalid password {string} into the second box")
     public void typed_the_invalid_pass_into_the_second_box(String password) {
+        Driver.wait(1);
         loginPage.password.sendKeys(password);
 
     }
 
     @Then("User should be able to see the message which is Did you forget your password?")
     public void user_should_be_able_to_see_the_message_which_is_Did_you_forget_your_password() {
-
+        Driver.wait(1);
         boolean isShowedUp = loginPage.forgetPasswordMessage.isDisplayed();
         System.out.println(isShowedUp);
+
 
     }
 
     @Then("User should be able to see  the option which says You don't have an account yet? Register a new account")
     public void user_should_be_able_to_see_the_option_which_says_You_don_t_have_an_account_yet_Register_a_new_account() {
+        Driver.wait(1);
         boolean isShowedUpText = loginPage.registerAccount.isDisplayed();
         System.out.println(isShowedUpText);
 
+
         Driver.closeDriver();
+
     }
 }
 

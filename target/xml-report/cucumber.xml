@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="14" time="27.271">
-    <testcase classname="TC01_Login page should not be accessible with invalid credentials" name="User cannot login with invalid username validating the error message" time="17.887">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="14" time="57.519">
+    <testcase classname="TC01_Login page should not be accessible with invalid credentials" name="User cannot login with invalid username validating the error message" time="19.114">
         <system-out>
             <![CDATA[Given User on landing page..................................................passed
 And Click the person icon on top of right corner............................passed
@@ -11,7 +11,7 @@ Then Click the sign in button...............................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="TC01_Login page should not be accessible with invalid credentials" name="User cannot login with invalid username validating the error message 2" time="1.566">
+    <testcase classname="TC01_Login page should not be accessible with invalid credentials" name="User cannot login with invalid username validating the error message 2" time="2.473">
         <system-out>
             <![CDATA[Given User on landing page..................................................passed
 And Click the person icon on top of right corner............................passed
@@ -22,7 +22,7 @@ Then Click the sign in button...............................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="TC01_Login page should not be accessible with invalid credentials" name="User cannot login with invalid username validating the error message 3" time="1.408">
+    <testcase classname="TC01_Login page should not be accessible with invalid credentials" name="User cannot login with invalid username validating the error message 3" time="2.29">
         <system-out>
             <![CDATA[Given User on landing page..................................................passed
 And Click the person icon on top of right corner............................passed
@@ -33,7 +33,7 @@ Then Click the sign in button...............................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="TC01_Login page should not be accessible with invalid credentials" name="User cannot login with invalid username validating the error message 4" time="1.434">
+    <testcase classname="TC01_Login page should not be accessible with invalid credentials" name="User cannot login with invalid username validating the error message 4" time="2.245">
         <system-out>
             <![CDATA[Given User on landing page..................................................passed
 And Click the person icon on top of right corner............................passed
@@ -44,79 +44,109 @@ Then Click the sign in button...............................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="TC01_Login page should not be accessible with invalid credentials" name="User cannot login with invalid password validating the error message" time="0.427">
+    <testcase classname="TC01_Login page should not be accessible with invalid credentials" name="User cannot login with invalid password validating the error message" time="3.275">
         <system-out>
-            <![CDATA[And Typed the valid username "SKaya" into the first box.....................passed
+            <![CDATA[Given User on landing page..................................................passed
+And Click the person icon on top of right corner............................passed
+And Click on the sign in button.............................................passed
+And Typed the valid username "SKaya" into the first box.....................passed
 And Typed the invalid password "Skaya192837*@" into the second box..........passed
 Then Click the sign in button...............................................passed
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="TC01_Login page should not be accessible with invalid credentials" name="User cannot login with invalid password validating the error message 2" time="0.433">
+    <testcase classname="TC01_Login page should not be accessible with invalid credentials" name="User cannot login with invalid password validating the error message 2" time="3.242">
         <system-out>
-            <![CDATA[And Typed the valid username "cus102" into the first box....................passed
+            <![CDATA[Given User on landing page..................................................passed
+And Click the person icon on top of right corner............................passed
+And Click on the sign in button.............................................passed
+And Typed the valid username "cus102" into the first box....................passed
 And Typed the invalid password "Cus102@@" into the second box...............passed
 Then Click the sign in button...............................................passed
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="TC01_Login page should not be accessible with invalid credentials" name="User cannot login with invalid password validating the error message 3" time="0.423">
+    <testcase classname="TC01_Login page should not be accessible with invalid credentials" name="User cannot login with invalid password validating the error message 3" time="3.273">
         <system-out>
-            <![CDATA[And Typed the valid username "empl101" into the first box...................passed
+            <![CDATA[Given User on landing page..................................................passed
+And Click the person icon on top of right corner............................passed
+And Click on the sign in button.............................................passed
+And Typed the valid username "empl101" into the first box...................passed
 And Typed the invalid password "Empl101@@" into the second box..............passed
 Then Click the sign in button...............................................passed
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="TC01_Login page should not be accessible with invalid credentials" name="User cannot login with invalid password validating the error message 4" time="0.427">
+    <testcase classname="TC01_Login page should not be accessible with invalid credentials" name="User cannot login with invalid password validating the error message 4" time="3.359">
         <system-out>
-            <![CDATA[And Typed the valid username "man103" into the first box....................passed
+            <![CDATA[Given User on landing page..................................................passed
+And Click the person icon on top of right corner............................passed
+And Click on the sign in button.............................................passed
+And Typed the valid username "man103" into the first box....................passed
 And Typed the invalid password "Man103@@" into the second box...............passed
 Then Click the sign in button...............................................passed
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="TC01_Login page should not be accessible with invalid credentials" name="User cannot login with the invalid username and invalid password validating the error message" time="0.467">
+    <testcase classname="TC01_Login page should not be accessible with invalid credentials" name="User cannot login with the invalid username and invalid password validating the error message" time="3.289">
         <system-out>
-            <![CDATA[And Typed the invalid username "SKayaa" into the first box..................passed
+            <![CDATA[Given User on landing page..................................................passed
+And Click the person icon on top of right corner............................passed
+And Click on the sign in button.............................................passed
+And Typed the invalid username "SKayaa" into the first box..................passed
 And Typed the invalid password "Skaya192837*@" into the second box..........passed
 Then Click the sign in button...............................................passed
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="TC01_Login page should not be accessible with invalid credentials" name="User cannot login with the invalid username and invalid password validating the error message 2" time="0.417">
+    <testcase classname="TC01_Login page should not be accessible with invalid credentials" name="User cannot login with the invalid username and invalid password validating the error message 2" time="3.276">
         <system-out>
-            <![CDATA[And Typed the invalid username "cus102b" into the first box.................passed
+            <![CDATA[Given User on landing page..................................................passed
+And Click the person icon on top of right corner............................passed
+And Click on the sign in button.............................................passed
+And Typed the invalid username "cus102b" into the first box.................passed
 And Typed the invalid password "Cus102@@" into the second box...............passed
 Then Click the sign in button...............................................passed
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="TC01_Login page should not be accessible with invalid credentials" name="User cannot login with the invalid username and invalid password validating the error message 3" time="0.445">
+    <testcase classname="TC01_Login page should not be accessible with invalid credentials" name="User cannot login with the invalid username and invalid password validating the error message 3" time="3.262">
         <system-out>
-            <![CDATA[And Typed the invalid username "empl101c" into the first box................passed
+            <![CDATA[Given User on landing page..................................................passed
+And Click the person icon on top of right corner............................passed
+And Click on the sign in button.............................................passed
+And Typed the invalid username "empl101c" into the first box................passed
 And Typed the invalid password "Empl101@@" into the second box..............passed
 Then Click the sign in button...............................................passed
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="TC01_Login page should not be accessible with invalid credentials" name="User cannot login with the invalid username and invalid password validating the error message 4" time="0.413">
+    <testcase classname="TC01_Login page should not be accessible with invalid credentials" name="User cannot login with the invalid username and invalid password validating the error message 4" time="3.306">
         <system-out>
-            <![CDATA[And Typed the invalid username "man103d" into the first box.................passed
+            <![CDATA[Given User on landing page..................................................passed
+And Click the person icon on top of right corner............................passed
+And Click on the sign in button.............................................passed
+And Typed the invalid username "man103d" into the first box.................passed
 And Typed the invalid password "Man103@@" into the second box...............passed
 Then Click the sign in button...............................................passed
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="TC01_Login page should not be accessible with invalid credentials" name="User with invalid credentials should be given an option to reset their password" time="0.083">
+    <testcase classname="TC01_Login page should not be accessible with invalid credentials" name="User with invalid credentials should be given an option to reset their password" time="1.87">
         <system-out>
-            <![CDATA[Then User should be able to see the message which is Did you forget your password?.passed
+            <![CDATA[Given User on landing page..................................................passed
+And Click the person icon on top of right corner............................passed
+And Click on the sign in button.............................................passed
+Then User should be able to see the message which is Did you forget your password?.passed
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="TC01_Login page should not be accessible with invalid credentials" name="User should be given the option to navigate to registration page if they did not register yet" time="0.82">
+    <testcase classname="TC01_Login page should not be accessible with invalid credentials" name="User should be given the option to navigate to registration page if they did not register yet" time="2.619">
         <system-out>
-            <![CDATA[Then User should be able to see  the option which says You don't have an account yet? Register a new account.passed
+            <![CDATA[Given User on landing page..................................................passed
+And Click the person icon on top of right corner............................passed
+And Click on the sign in button.............................................passed
+Then User should be able to see  the option which says You don't have an account yet? Register a new account.passed
 ]]>
         </system-out>
     </testcase>

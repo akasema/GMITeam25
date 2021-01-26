@@ -1,4 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/us05.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/gmibank/features/us05.feature");
 formatter.feature({
   "name": "TC01_Login page should not be accessible with invalid credentials",
   "description": "",
@@ -383,6 +383,18 @@ formatter.scenarioOutline({
   ]
 });
 formatter.step({
+  "name": "User on landing page",
+  "keyword": "Given "
+});
+formatter.step({
+  "name": "Click the person icon on top of right corner",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "Click on the sign in button",
+  "keyword": "And "
+});
+formatter.step({
   "name": "Typed the valid username \"\u003cusername\u003e\" into the first box",
   "keyword": "And "
 });
@@ -445,6 +457,36 @@ formatter.scenario({
   ]
 });
 formatter.step({
+  "name": "User on landing page",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.StepDef05.user_on_landing_page_https_gmibank_com()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Click the person icon on top of right corner",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.StepDef05.click_the_person_icon_on_top_of_right_corner()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Click on the sign in button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.StepDef05.click_on_the_sign_in_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
   "name": "Typed the valid username \"SKaya\" into the first box",
   "keyword": "And "
 });
@@ -486,6 +528,36 @@ formatter.scenario({
       "name": "@US005TC02"
     }
   ]
+});
+formatter.step({
+  "name": "User on landing page",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.StepDef05.user_on_landing_page_https_gmibank_com()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Click the person icon on top of right corner",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.StepDef05.click_the_person_icon_on_top_of_right_corner()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Click on the sign in button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.StepDef05.click_on_the_sign_in_button()"
+});
+formatter.result({
+  "status": "passed"
 });
 formatter.step({
   "name": "Typed the valid username \"cus102\" into the first box",
@@ -531,6 +603,36 @@ formatter.scenario({
   ]
 });
 formatter.step({
+  "name": "User on landing page",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.StepDef05.user_on_landing_page_https_gmibank_com()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Click the person icon on top of right corner",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.StepDef05.click_the_person_icon_on_top_of_right_corner()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Click on the sign in button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.StepDef05.click_on_the_sign_in_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
   "name": "Typed the valid username \"empl101\" into the first box",
   "keyword": "And "
 });
@@ -574,6 +676,36 @@ formatter.scenario({
   ]
 });
 formatter.step({
+  "name": "User on landing page",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.StepDef05.user_on_landing_page_https_gmibank_com()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Click the person icon on top of right corner",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.StepDef05.click_the_person_icon_on_top_of_right_corner()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Click on the sign in button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.StepDef05.click_on_the_sign_in_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
   "name": "Typed the valid username \"man103\" into the first box",
   "keyword": "And "
 });
@@ -612,6 +744,18 @@ formatter.scenarioOutline({
       "name": "@US005TC03"
     }
   ]
+});
+formatter.step({
+  "name": "User on landing page",
+  "keyword": "Given "
+});
+formatter.step({
+  "name": "Click the person icon on top of right corner",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "Click on the sign in button",
+  "keyword": "And "
 });
 formatter.step({
   "name": "Typed the invalid username \"\u003cusername\u003e\" into the first box",
@@ -676,6 +820,36 @@ formatter.scenario({
   ]
 });
 formatter.step({
+  "name": "User on landing page",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.StepDef05.user_on_landing_page_https_gmibank_com()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Click the person icon on top of right corner",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.StepDef05.click_the_person_icon_on_top_of_right_corner()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Click on the sign in button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.StepDef05.click_on_the_sign_in_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
   "name": "Typed the invalid username \"SKayaa\" into the first box",
   "keyword": "And "
 });
@@ -717,6 +891,36 @@ formatter.scenario({
       "name": "@US005TC03"
     }
   ]
+});
+formatter.step({
+  "name": "User on landing page",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.StepDef05.user_on_landing_page_https_gmibank_com()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Click the person icon on top of right corner",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.StepDef05.click_the_person_icon_on_top_of_right_corner()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Click on the sign in button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.StepDef05.click_on_the_sign_in_button()"
+});
+formatter.result({
+  "status": "passed"
 });
 formatter.step({
   "name": "Typed the invalid username \"cus102b\" into the first box",
@@ -762,6 +966,36 @@ formatter.scenario({
   ]
 });
 formatter.step({
+  "name": "User on landing page",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.StepDef05.user_on_landing_page_https_gmibank_com()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Click the person icon on top of right corner",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.StepDef05.click_the_person_icon_on_top_of_right_corner()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Click on the sign in button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.StepDef05.click_on_the_sign_in_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
   "name": "Typed the invalid username \"empl101c\" into the first box",
   "keyword": "And "
 });
@@ -803,6 +1037,36 @@ formatter.scenario({
       "name": "@US005TC03"
     }
   ]
+});
+formatter.step({
+  "name": "User on landing page",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.StepDef05.user_on_landing_page_https_gmibank_com()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Click the person icon on top of right corner",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.StepDef05.click_the_person_icon_on_top_of_right_corner()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Click on the sign in button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.StepDef05.click_on_the_sign_in_button()"
+});
+formatter.result({
+  "status": "passed"
 });
 formatter.step({
   "name": "Typed the invalid username \"man103d\" into the first box",
@@ -848,6 +1112,36 @@ formatter.scenario({
   ]
 });
 formatter.step({
+  "name": "User on landing page",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.StepDef05.user_on_landing_page_https_gmibank_com()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Click the person icon on top of right corner",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.StepDef05.click_the_person_icon_on_top_of_right_corner()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Click on the sign in button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.StepDef05.click_on_the_sign_in_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
   "name": "User should be able to see the message which is Did you forget your password?",
   "keyword": "Then "
 });
@@ -869,6 +1163,36 @@ formatter.scenario({
       "name": "@US005TC05"
     }
   ]
+});
+formatter.step({
+  "name": "User on landing page",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.StepDef05.user_on_landing_page_https_gmibank_com()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Click the person icon on top of right corner",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.StepDef05.click_the_person_icon_on_top_of_right_corner()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Click on the sign in button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.StepDef05.click_on_the_sign_in_button()"
+});
+formatter.result({
+  "status": "passed"
 });
 formatter.step({
   "name": "User should be able to see  the option which says You don\u0027t have an account yet? Register a new account",
