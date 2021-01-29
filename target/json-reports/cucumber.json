@@ -3,42 +3,532 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2020-11-05T01:03:52.076Z",
         "line": 3,
-        "name": "TC02_kullanici database baglantini kontrol eder",
+        "name": "",
         "description": "",
-        "id": "database-test;tc02-kullanici-database-baglantini-kontrol-eder",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2021-01-26T03:29:08.608Z",
+        "line": 14,
+        "name": "User log in with customer credantials",
+        "description": "",
+        "id": "us12-manage-customer-page;user-log-in-with-customer-credantials;employee-user-customer-page;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 22083000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Click login link",
+            "match": {
+              "location": "gmibank.stepdefinitions.ManageCustomerStepDefinitions.click_link()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 420000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Login with \"MJohn\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"MJohn\"",
+                  "offset": 11
+                }
+              ],
+              "location": "gmibank.stepdefinitions.ManageCustomerStepDefinitions.login_with(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 220000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter password \"Mj192837?\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mj192837?\"",
+                  "offset": 15
+                }
+              ],
+              "location": "gmibank.stepdefinitions.ManageCustomerStepDefinitions.enter_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 145000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click to login button",
+            "match": {
+              "location": "gmibank.stepdefinitions.ManageCustomerStepDefinitions.click_to_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1771000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click to my operations",
+            "match": {
+              "location": "gmibank.stepdefinitions.ManageCustomerStepDefinitions.click_to_my_operations()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 353000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Click to manage customers",
+            "match": {
+              "location": "gmibank.stepdefinitions.ManageCustomerStepDefinitions.click_to_manage_customers()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@manageCustomer"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2021-01-26T03:29:34.027Z",
+        "line": 18,
+        "name": "First Name,Last Name,Middle Name, Email.... section should be visible.",
+        "description": "",
+        "id": "us12-manage-customer-page;first-name-last-name-middle-name--email....-section-should-be-visible.",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 11851000000,
+              "duration": 2221000000,
               "status": "passed"
             },
-            "line": 4,
-            "name": "kullanici veritabanina baglanir",
+            "line": 19,
+            "name": "User can see ID option",
             "match": {
-              "location": "gmibank.stepdefinitions.DBStepDefinitions.kullanici_veritabanina_baglanir()"
+              "location": "gmibank.stepdefinitions.ManageCustomerStepDefinitions.user_can_see_ID_option()"
             },
             "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 39000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User can see Last Name",
+            "match": {
+              "location": "gmibank.stepdefinitions.ManageCustomerStepDefinitions.user_can_see_Last_Name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 32000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User can see Middle Inital",
+            "match": {
+              "location": "gmibank.stepdefinitions.ManageCustomerStepDefinitions.user_can_see_Middle_Inital()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 169000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User can see Email option",
+            "match": {
+              "location": "gmibank.stepdefinitions.ManageCustomerStepDefinitions.user_can_see_Email_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 32000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User can see PhoneNumber",
+            "match": {
+              "location": "gmibank.stepdefinitions.ManageCustomerStepDefinitions.user_can_see_PhoneNumber()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 32000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User can see Adress option",
+            "match": {
+              "location": "gmibank.stepdefinitions.ManageCustomerStepDefinitions.user_can_see_Adress_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 33000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User can see Create date option",
+            "match": {
+              "location": "gmibank.stepdefinitions.ManageCustomerStepDefinitions.user_can_see_Create_date_option()"
+            },
+            "keyword": "And "
           }
         ],
         "tags": [
           {
-            "name": "@db"
+            "name": "@manageCustomer"
+          },
+          {
+            "name": "@US_0012_01TC"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2021-01-26T03:29:36.592Z",
+        "line": 29,
+        "name": "There should be view option and edit button there.",
+        "description": "",
+        "id": "us12-manage-customer-page;there-should-be-view-option-and-edit-button-there.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8153000000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User can see view option",
+            "match": {
+              "location": "gmibank.stepdefinitions.ManageCustomerStepDefinitions.user_can_see_view_option()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6471000000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User  can see edit button there.",
+            "match": {
+              "location": "gmibank.stepdefinitions.ManageCustomerStepDefinitions.user_can_see_edit_button_there()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@manageCustomer"
+          },
+          {
+            "name": "@US_0012_02TC"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2021-01-26T03:29:51.221Z",
+        "line": 34,
+        "name": "User can reach edit option from view option",
+        "description": "",
+        "id": "us12-manage-customer-page;user-can-reach-edit-option-from-view-option",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3790000000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "User can click  and see view option",
+            "match": {
+              "location": "gmibank.stepdefinitions.ManageCustomerStepDefinitions.user_can_click_and_see_view_option()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6068000000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "User can click and see edit option",
+            "match": {
+              "location": "gmibank.stepdefinitions.ManageCustomerStepDefinitions.user_can_click_and_see_edit_option()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@manageCustomer"
+          },
+          {
+            "name": "@US_0012_03TC"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2021-01-26T03:30:01.088Z",
+        "line": 39,
+        "name": "Edit button allow user update user info",
+        "description": "",
+        "id": "us12-manage-customer-page;edit-button-allow-user-update-user-info",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 279000000,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "Click edit button",
+            "match": {
+              "location": "gmibank.stepdefinitions.ManageCustomerStepDefinitions.click_edit_button()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1239000000,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "Delete first name and enter First_Name",
+            "match": {
+              "location": "gmibank.stepdefinitions.ManageCustomerStepDefinitions.delete_first_name_and_enter_First_Name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 185000000,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "Delete last name and enter  Last_Name",
+            "match": {
+              "location": "gmibank.stepdefinitions.ManageCustomerStepDefinitions.delete_last_name_and_enter_Last_Name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 278000000,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "Delete email and enter e_mail",
+            "match": {
+              "location": "gmibank.stepdefinitions.ManageCustomerStepDefinitions.delete_email_and_enter_e_mail()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 225000000,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "Delete phone number and enter Phone_Number",
+            "match": {
+              "location": "gmibank.stepdefinitions.ManageCustomerStepDefinitions.delete_phone_number_and_enter_Phone_Number()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 237000000,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "Delete zip code and enter Zip_Code",
+            "match": {
+              "location": "gmibank.stepdefinitions.ManageCustomerStepDefinitions.delete_zip_code_and_enter_Zip_Code()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 227000000,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "Delete City and enter City",
+            "match": {
+              "location": "gmibank.stepdefinitions.ManageCustomerStepDefinitions.delete_City_and_enter_City()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 476000000,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "Delete SSn and enter S_s_n",
+            "match": {
+              "location": "gmibank.stepdefinitions.ManageCustomerStepDefinitions.delete_SSn_and_enter_S_s_n()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@manageCustomer"
+          },
+          {
+            "name": "@US_0012_04TC"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2021-01-26T03:30:04.242Z",
+        "line": 50,
+        "name": "User can delete customer and see message regarding delete.",
+        "description": "",
+        "id": "us12-manage-customer-page;user-can-delete-customer-and-see-message-regarding-delete.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 184000000,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "User can see delete button",
+            "match": {
+              "location": "gmibank.stepdefinitions.ManageCustomerStepDefinitions.user_can_see_delete_button()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 201000000,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "User can click delete button",
+            "match": {
+              "location": "gmibank.stepdefinitions.ManageCustomerStepDefinitions.user_can_click_delete_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 113000000,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "User  Can see warning message",
+            "match": {
+              "location": "gmibank.stepdefinitions.ManageCustomerStepDefinitions.user_Can_see_warning_message()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "User confirm delete and delete info",
+            "match": {
+              "location": "gmibank.stepdefinitions.ManageCustomerStepDefinitions.user_confirm_delete_and_delete_info()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@manageCustomer"
+          },
+          {
+            "name": "@US_0012_05TC"
           }
         ]
       }
     ],
-    "name": "DataBase Test",
+    "name": "US12 Manage Customer Page",
     "description": "",
-    "id": "database-test",
+    "id": "us12-manage-customer-page",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/db.feature",
+    "uri": "file:src/test/resources/features/manageCustomer.feature",
     "tags": [
       {
-        "name": "@db",
+        "name": "@manageCustomer",
         "type": "Tag",
         "location": {
           "line": 1,

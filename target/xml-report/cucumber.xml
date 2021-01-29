@@ -1,7 +1,50 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="13.019">
-<testcase classname="DataBase Test" name="TC02_kullanici database baglantini kontrol eder" time="11.996">
-<system-out><![CDATA[Given kullanici veritabanina baglanir.......................................passed
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="6" time="56.396">
+<testcase classname="US12 Manage Customer Page" name="User log in with customer credantials" time="25.215">
+<system-out><![CDATA[Given Click login link......................................................passed
+And Login with "MJohn"......................................................passed
+And Enter password "Mj192837?"..............................................passed
+And Click to login button...................................................passed
+And Click to my operations..................................................passed
+And Click to manage customers...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US12 Manage Customer Page" name="First Name,Last Name,Middle Name, Email.... section should be visible." time="2.562">
+<system-out><![CDATA[Given User can see ID option................................................passed
+And User can see Last Name..................................................passed
+And User can see Middle Inital..............................................passed
+And User can see Email option...............................................passed
+And User can see PhoneNumber................................................passed
+And User can see Adress option..............................................passed
+And User can see Create date option.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US12 Manage Customer Page" name="There should be view option and edit button there." time="14.626">
+<system-out><![CDATA[Given User can see view option..............................................passed
+And User  can see edit button there.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US12 Manage Customer Page" name="User can reach edit option from view option" time="9.86">
+<system-out><![CDATA[Given User can click  and see view option...................................passed
+And User can click and see edit option......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US12 Manage Customer Page" name="Edit button allow user update user info" time="3.15">
+<system-out><![CDATA[Given Click edit button.....................................................passed
+And Delete first name and enter First_Name..................................passed
+And Delete last name and enter  Last_Name...................................passed
+And Delete email and enter e_mail...........................................passed
+And Delete phone number and enter Phone_Number..............................passed
+And Delete zip code and enter Zip_Code......................................passed
+And Delete City and enter City..............................................passed
+And Delete SSn and enter S_s_n..............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US12 Manage Customer Page" name="User can delete customer and see message regarding delete." time="0.499">
+<system-out><![CDATA[Given User can see delete button............................................passed
+And User can click delete button............................................passed
+And User  Can see warning message...........................................passed
+Then User confirm delete and delete info....................................passed
 ]]></system-out>
 </testcase>
 </testsuite>
